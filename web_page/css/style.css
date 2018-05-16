@@ -1,0 +1,54 @@
+body{
+	font-family: 'Kaushan Script', cursive;
+	margin: 1%;
+}
+
+.header h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+.container_body .container{
+	border: 2px solid #333;
+	background-color: #d3d1d2;
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+@media (min-width: 992px){
+	.container_body .container{
+		width: 30%;
+		height: 30%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.container_body #c1, #c2{
+		width: 45%;
+		height: 30%;
+	}
+
+	.container_body #c3{
+		width: 92.5%;
+		height:30%;
+	}
+}
+
+.container_body .container span{
+	font-size: 20px;
+	font-weight: bold;
+	border-left: 2px solid #333;
+	border-bottom: 2px solid #333;
+	float: right;
+	background-color: orange;
+	width: 100px;
+	text-align: center;
+}
+
+.container_body .container p{
+	clear: right;
+	font-family: Arial;
+	padding: 2%;
+}
