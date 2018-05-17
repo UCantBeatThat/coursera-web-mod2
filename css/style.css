@@ -36,15 +36,32 @@ body{
 	}
 }
 
+@media (max-width: 767px){
+	.container_body{
+		margin-right: 2%;
+	}
+}
+
 .container_body .container span{
 	font-size: 20px;
 	font-weight: bold;
 	border-left: 2px solid #333;
 	border-bottom: 2px solid #333;
 	float: right;
-	background-color: orange;
 	width: 100px;
 	text-align: center;
+}
+
+.container_body #c1 span{
+	background-color: orange;
+}
+
+.container_body #c2 span{
+	background-color: red;
+}
+
+.container_body #c3 span{
+	background-color: yellow;
 }
 
 .container_body .container p{
